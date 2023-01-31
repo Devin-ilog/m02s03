@@ -1,0 +1,52 @@
+.btn-primary {
+  background-color: red;
+}
+
+.card-person {
+  margin: 0 auto;
+  max-width: 800px !important;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+.card-person .btn {
+  padding: 10px;
+  width: 100%;
+}
+
+.icon {
+  width: 70px;
+  height: 48px;
+  display: inline-block;
+  -webkit-mask: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/18515/heart.svg) no-repeat 50% 50%;
+  mask: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/18515/heart.svg) no-repeat 50% 50%;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+}
+.icon.gray {
+  background-color: #ccc;
+}
+.icon.red {
+  background-color: red;
+}
+
+button.botaoFavoritar {
+  margin-left: 20px !important;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+a {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.price-tag {
+  font-size: 38px;
+  color: rgb(202, 50, 50);
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */
