@@ -1,7 +1,7 @@
 //VARIÁVEIS COM SCSS
 $cor-primaria: red;
 $cor-secondaria: green;
-
+$cor-white: white;
 $cor-primaria-ligth: rgb(245, 94, 94);
 $cor-primaria-dark: rgb(147, 3, 3);
 $font-size-default: 16px;
@@ -10,11 +10,10 @@ $font-size-default: 16px;
     background-color: $cor-primaria;
 }
 
-
 .card-person{
     margin: 0 auto;
     max-width: 800px !important;
-    background-color: white;
+    background-color: $cor-white;
     padding: 20px;
     border-radius: 8px;
     .btn{
@@ -22,28 +21,19 @@ $font-size-default: 16px;
         width: 100%;
     }
 }
-.icon {
-    width: 70px;
-    height: 48px;
-    display: inline-block;
-    -webkit-mask: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/18515/heart.svg) no-repeat 50% 50%;
-    mask: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/18515/heart.svg) no-repeat 50% 50%;
-    -webkit-mask-size: cover;
-    mask-size: cover;
-    &.gray { 
-        background-color: #ccc; 
-    }
-    &.red { 
-        background-color: red; 
-    }
-}
+
 button{
     &.botaoFavoritar{
-        margin-left: 20px !important;
+        margin-left: 10px !important;
         background-color: transparent;
+        height: fit-content;
         margin: 0;
         padding: 0;
-        border: none;
+        border: unset;
+        cursor: pointer;
+        i{
+            font-size: 25px;
+        }
     }
 }
 
